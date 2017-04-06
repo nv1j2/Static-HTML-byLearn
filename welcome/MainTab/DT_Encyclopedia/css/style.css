@@ -1,0 +1,396 @@
+
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+a, img {
+    border: 0 none;
+}
+body {
+    background: url("../images/animebg.jpg") no-repeat fixed center / cover;
+    font-family: "Microsoft Yahei","微软雅黑",arial,"宋体",sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+a {
+    color: #099;
+    outline: medium none;
+}
+a:active {
+    color: #e61736;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #e61736;
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+    font-size: 1px;
+    height: 0;
+    line-height: 0;
+    margin: 0 auto;
+}
+.t16 {
+    font-size: 16px;
+}
+.ml15 {
+    margin-left: 15px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+.color444 {
+    color: #444444;
+}
+.mt5 {
+    margin-top: 5px;
+}
+#box2{
+    border: 1px solid #d4d2d2;
+    margin: 40px auto 0;
+    overflow: hidden;
+    width: 1050px;
+}
+.main {
+    clear: both;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+    width: 1050px;
+}
+.banner_tit {
+    background: url("../images/DTlogo.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #ebebeb;
+    color: #222222;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    height: 63px;
+    line-height: 45px;
+    padding-left: 20px;
+    position: relative;
+}
+.role_fen {
+    color: #ff4500;
+    font-family: Brush Script MT;
+    font-size: 24px;
+}
+.hot_role {
+    overflow: hidden;
+    width: 1050px;
+}
+#centerwell {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+    height: 300px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 1055px;
+}
+#centerwell li {
+    border-right: 1px solid #3d464e;
+    float: left;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    width: 100px;
+}
+#centerwell h3 {
+    background-color: #000000;
+    cursor: pointer;
+    height: 300px;
+    left: 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+    width: 100px;
+}
+#centerwell .hot_content {
+    color: #5f5f5f;
+    font-family: GeogrotesqueMedium,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    left: 115px;
+    letter-spacing: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 15px;
+    width: 415px;
+}
+#centerwell h3 img {
+    float: left;
+    height: 300px;
+    opacity: 0.3;
+    width: 100px;
+}
+#centerwell h3.on img {
+    opacity: 1;
+}
+#centerwell h3 .hot_title {
+    bottom: 0;
+    color: #ffffff;
+    display: block;
+    height: 177px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 72px;
+    z-index: 10;
+}
+#centerwell h3.on .hot_title {
+    display: none;
+}
+.hot_content .hot_left {
+    float: left;
+}
+.img_box {
+    border: 1px solid #000000;
+}
+.hot_left img {
+    height: 170px;
+    width: 130px;
+}
+.hot_content .hot_top {
+    float: right;
+}
+.hot_top dl {
+    position: relative;
+}
+.hot_top dl dt {
+    float: left;
+}
+.img_box {
+    border: 1px solid #000000;
+}
+.hot_top dl dd {
+    float: left;
+    line-height: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 260px;
+}
+#mainInfo{
+    float:left;
+    text-indent: 2em;
+    color:#444;
+    line-height: 14px;
+    font-size: 15px;
+    width:700px;
+    height:auto;
+}
+#mainTitle{
+    float:left;
+    color:#000;
+    margin:5px; 
+    line-height: 40px;
+    font-family: GeogrotesqueMedium,Helvetica,Arial,sans-serif;
+    font-size: 41px;
+}
+#nextTitle{
+    line-height: 40px;
+    float:left;
+    bottom:0;
+}
+#box{
+    background:#fff;
+    padding: 29px 29px 0;
+    margin: 20px auto 0;
+    margin-top:150px;
+    width:1079px;
+    height:auto;
+    border:1px solid rgba(0,0,0,0.4);
+}
+#basic-info{
+    float:left;
+    width:780px;
+    height:auto;
+
+}
+.basicInfo{
+    margin:30px 0 0 20px;
+}
+.basicInfo td,.basicInfo th{
+    text-align:left;
+    line-height: 26px;
+    border-bottom:1px dashed #AAA;
+}
+.basicInfo td{
+    color: #333;
+    width:250px;
+    font-size:15px;
+}
+.basicInfo th{
+    color: #999;
+    width:90px;
+}
+#menuInfo{
+    float:right;
+    width:200px;
+}
+.menuList li{
+    list-style:none;
+}
+#menuTitle h3{
+    color:#555;
+    padding-left:10px;
+}
+.level2 a{
+    padding-left:10px;
+    font-size:14px;
+}
+#storyMain{
+    float:left;
+    width:900px;
+    height:300px;
+}
+.storyTitle{
+    margin-top:30px;
+    height:24px;
+    width:1050px;
+    float:left;
+    margin-left:-30px;
+    padding-left:18px;
+    border-left: 12px solid #4f9cee;
+    font-size: 24px;
+    font-family: Microsoft YaHei,SimHei,Verdana;
+    color: #333;
+}
+#storyInfo{
+    width:700px;
+    height:250px;
+    float:left;
+}
+#storyCloth{
+    float:left;
+    width:154px;
+    height:220px;
+    background: url("../images/storyCloth.jpg");
+    border:1px solid rgba(0,0,0,0.4);
+}
+.para{
+    color: #333;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    text-indent: 2em;
+    word-wrap: break-word;
+}
+#storyPart{
+    float:left;
+    width:900px;
+    height:180px;
+}
+#storyPartInfo{
+    width:700px;
+    height:130px;
+    float:left;
+}
+#box3{
+    overflow: hidden;
+    width: 1050px;
+}
+#person1{
+    padding:20px;
+}
+.personInfo{
+    font-family: Microsoft YaHei,SimHei,Verdana;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #333;
+    margin-top:50px;
+    margin-left:-20px;
+    padding-left:20px;
+    border-left: 5px solid #4f9cee;
+    float:left;
+    width:900px;
+}
+.personPhoto{
+    border:1px solid rgba(0,0,0,0.4);
+}
+.personPhotoFra{
+    margin-top:40px;
+    float:left;
+    width:225px;
+}
+.personPhoto{
+    margin-top:10px;
+}
+.personMainInfo{
+    margin-top:30px;
+    float:left;
+    width:650px;
+    padding-left:20px;
+}
+.personContent{
+    color: #555;
+    line-height: 24px;
+    word-wrap: break-word;
+    font: 14px/1.5 arial,"宋体",sans-serif;
+}
+.personAll{
+    margin-top:20px;
+    float:left;
+    width:900px;
+    padding-bottom:20px;
+    border-bottom:1px dashed #AAA;
+}
+.personMainInfo > DIV:first-child{
+    color:#00A;
+    font: 18px/1.2 arial,"Microsoft YaHei,SimHei,Verdana;",sans-serif;
+}
+#boxBouttom{
+    height:250px;;
+}
+#box4{
+    height:4100px;
+    background:#fff;
+}
+
+.go {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    bottom: 25%;
+    box-shadow: 0 0 2px #6e6e6e;
+    height: 106px;
+    position: fixed;
+    right: 12px;
+    width: 47px;
+}
+.go a {
+    background: url("../images/topandend.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    display: block;
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+    text-indent: 999em;
+    width: 37px;
+}
+.go .top {
+    background-position: 0 -3px;
+    height: 22px;
+}
+.go .lalala {
+    background-position: 0 -24px;
+    height: 32px;
+}
+.go .bottom {
+    background-position: 0 -58px;
+    height: 22px;
+}
+.go .top:hover {
+    background-position: -38px -3px;
+}
+.go .lalala:hover {
+    background-position: -38px -24px;
+}
+.go .bottom:hover {
+    background-position: -38px -58px;
+}

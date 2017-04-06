@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>text1</title>
+    <link rel="shortcut icon" href="../../img/favicon.png"/>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/musicPlayStyle.css" media="screen" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/chuncaiStyle.css">
+    <script src="js/jquery.min.js"></script>
+    <script>var path = "";var imagewidth = '240';var imageheight = '240';</script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+
+    <div id = "body_box">
+        <div id = "log_user">
+            <div class="signIN">
+                <a href="#" onClick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">&nbsp&nbsp&nbsp&nbsp登陆&nbsp&nbsp加入御所&nbsp<span>&#x203a</span></a>
+                <div id="light" class="white_content">
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">关闭</a>
+                    <div id = "userSign">
+                        <div class = "userSignDIV"><div class = "userSignLogoBG"><div id = "userSignNameLogo"></div></div><div class = "userSignFra"><input class="userSignName" type="text" placeholder="请输入帐号"></div></div>
+                        <div class = "userSignDIV"><div class = "userSignLogoBG"><div id = "userSignPassWordLogo"></div></div><div class = "userSignFra"><input class="userSignPassWord" type="password" placeholder="请输入密码"></div></div>
+                        <div class = "signButtonDIV"><div class = "signButtonFra"><input class = "signButton" type = "submit" value = "登陆" onclick = "this.value = '并没有登陆'"></div></div>
+                        <div class = "signButtonDIV"><div class = "signButtonFra"><input class = "signButton" type = "submit" value = "注册" onclick = "this.value = '并没有注册'"></div></div>
+                        <div class = "foundPD"><a href="#">忘记密码？</a></div>
+                    </div>
+                </div>
+                <div id="fade" class="black_overlay" style="display:none;"></div>
+            </div>
+        </div>
+        <div id = "top_box"></div>
+        <div id = "main_box">
+            <div class = "center_box">
+                <div id = "logoFather"><div id = "myLogo"></div></div>
+                <div id = "ACGInfoFra"><li><a href="DT_Encyclopedia/index.html">“兔子～兔子～”天真地边这么唱着歌，边为了高中入学寻找著寄宿地点而迷路的心爱，意外发现了一间名叫“Rabbit House”的咖啡店。</a><a href="ACGInfo/DT_Encyclopedia/index.html">《请问您今天要来点兔子吗? 》</a></li></div>
+            </div>
+            <div class = "center_box">
+                <div class = "col_box">	
+                    <a href="#" class="button_link">
+                        <div id = "ACGGeng">
+                            <div id="mask"><ul>
+                                <li class="firstanimation"><div class = "ACGGengInfo">正面上我啊<div class = "ACGGengFrom">---某科学的超电磁炮</div></div></li>
+                                <li class="secondanimation"><div class = "ACGGengInfo">你知道的太多了<div class = "ACGGengFrom">---高达00</div></div></li>
+                                <li class="thirdanimation"><div class = "ACGGengInfo">你已经死了<div class = "ACGGengFrom">---北斗神拳</div></div></li>
+                                <li class="fourthanimation"><div class = "ACGGengInfo">错的不是我，是世界<div class = "ACGGengFrom">---反叛的鲁鲁修</div></div></li>
+                                <li class="fifthanimation"><div class = "ACGGengInfo">这时只要微笑就好了<div class = "ACGGengFrom">---新世纪福音战士</div></div></li>
+                            </ul></div>
+                            <div class="progress-bar"></div>
+                        </div>
+                        <span class="line line_top"></span><span class="line line_right"></span><span class="line line_bottom"></span><span class="line line_left"></span>
+                    </a>        
+                </div>
+                <div class = "col_box">
+                    <a href="ACGInfo/index.html" class="button_link"> 
+                        <div class="flip-container"><div class="flipperFra"><div class="frontFra"></div><div class="backFra"></div></div></div>
+                        <span class="line line_top"></span><span class="line line_right"></span><span class="line line_bottom"></span><span class="line line_left"></span>
+                    </a>    
+                </div>
+                <div class = "col_box">
+                    <div class = "min_box1_1"><a href = "ACGGame/index.html"><div id = "ACGGame"></div></a></div>
+                    <div class = "min_box1_2"><a href = "ACGFound/index.html"><div id = "ACGFound"></div></div>
+                    <div class = "min_box2"><a href = "video/1.mp4"><div id = "video_play"></div></a></div>
+                </div>
+                <div class = "col_box">
+                    <a href="DT_CG_view/index.html" class="button_link"><div id = "DT_info"></div>
+                        <span class="line line_top"></span><span class="line line_right"></span><span class="line line_bottom"></span><span class="line line_left"></span>
+                    </a>    
+                </div>
+            </div>
+            <div class = "big_center_box">
+                <div class="music-player">
+                    <div class="info">
+                        <div class="center">
+                        <div class="jp-playlist"><ul><li></li></ul></div></div>
+                        <div class="progress jp-seek-bar">
+                            <span class="jp-play-bar" style="width: 0%"></span>
+                            </div>
+                        </div>
+                        <div class="controls">
+                        <div class="current jp-current-time">00:00</div>
+                        <div class="play-controls">
+                            <a href="javascript:;" class="icon-previous jp-previous" title="上一曲"></a>
+                            <a href="javascript:;" class="icon-play jp-play" title="播放"></a>
+                            <a href="javascript:;" class="icon-pause jp-pause" title="暂停"></a>
+                            <a href="javascript:;" class="icon-next jp-next" title="下一曲"></a>
+                        </div>
+                        <div class="volume-level jp-volume-bar">
+                              <span class="jp-volume-bar-value" style="width: 0%"></span>
+                              <a href="javascript:;" class="icon-volume-up jp-volume-max" title="最大音量"></a>
+                              <a href="javascript:;" class="icon-volume-down jp-mute" title="静音"></a>
+                        </div>
+                    </div>
+                    <div id="jquery_jplayer" class="jp-jplayer"></div>
+                </div>
+                <a href = "hyz/index.html"><div id = "gifPlay"></div> </a>
+            </div>
+        </div>
+    </div>
+    <div id="hiddenfaces">
+        <img id="hf1" src="img/ikamusume001.gif">
+        <img id="hf2" src="img/ikamusume002.gif">
+        <img id="hf3" src="img/ikamusume003.gif">
+        <img id="hf4" src="img/ikamusume004.gif">
+        <img id="hf5" src="img/ikamusume005.gif">
+    </div>
+    
+    <script src="js/jquery.jplayer.min.js"></script>
+    <script src="js/jplayer.playlist.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/log.js"></script>
+</body>
+</html>

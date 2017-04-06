@@ -1,0 +1,66 @@
+body{
+  background: url("../img/bg.jpg")no-repeat fixed center / cover;
+  text-align: center;
+}
+#canvas{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#main{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+#mark{
+    background-image: url("../img/mark.png");
+    height:150px;
+    width:400px;
+    margin-left :auto;
+    margin-right:auto;
+    margin-top:100px;
+}
+#mark:hover .hoverMark{
+    height:150px;
+    width:400px;
+    background-image: url("../img/hoverMark.png");
+}
+#note{
+    width:450px;
+    margin-left :auto;
+    margin-right:auto;
+}
+#start{
+    background-image: url("../img/start.png");
+    height:100px;
+    width:200px;
+    float:left;
+}
+#rest{
+    background-image: url("../img/rest.png");
+    height:100px;
+    width:200px;
+    float:right;
+}
+#cource{
+    font-size: 10px;
+    width: 300px;
+    position:absolute;
+    right:0;
+    top:100%;
+    margin-top:-20px;
+}
+#start:hover .hoverStart{
+    height:100px;
+    width:200px;
+    background-image:url("../img/hoverStart.png");
+}
+#rest:hover .hoverRest{
+    height:100px;
+    width:200px;
+    background-image:url("../img/hoverRest.png");
+}
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
